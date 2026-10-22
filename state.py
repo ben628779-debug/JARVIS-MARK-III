@@ -1,0 +1,20 @@
+"""Zustaende von J.A.R.V.I.S."""
+
+
+class S:
+    IDLE = "IDLE"
+    LISTENING = "LISTENING"
+    THINKING = "THINKING"
+    PROCESSING = "PROCESSING"
+    SPEAKING = "SPEAKING"
+    ERROR = "ERROR"
+
+
+STATUS_TEXT = {
+    S.IDLE: "READY",
+    S.LISTENING: "LISTENING...",
+    S.THINKING: "THINKING...",
+    S.PROCESSING: "PROCESSING...",
+    S.SPEAKING: "SPEAKING...",
+    S.ERROR: "ERROR",
+}
